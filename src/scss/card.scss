@@ -1,0 +1,41 @@
+@import '../index.scss'; 
+
+.eatorama-card {
+    margin-top: 20px;
+}
+.eatorama-card .ant-row{
+   margin-left: unset !important;
+   margin-right: 0px !important;
+}
+.eatorama-card .ant-card{
+    border-radius: 10px;
+}
+.eatorama-card .ant-card:hover{
+    cursor: pointer;
+}
+.eatorama-card  .ant-card-body {
+    text-align: center;
+    padding: 0px 10px !important;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.eatorama-card .ant-col-3{
+        flex: 0 0 10%;
+        max-width: 10%;
+}
+
+.instock .ant-card{
+    background-color:#4cb050;
+}
+
+.outofstock .ant-card{
+    background-color: #af1513;
+}
+
+// #febf34
+// #fec952
+// #febf34
